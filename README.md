@@ -8,7 +8,7 @@ Grab screen function only works on Windows OS.
 * For Keyboard Control you will need to install pyautogui using `pip install pyautogui`
 
 ### How to use:
-* If you are using windows in some rare cases an absolute path is required there for you should replace `WINDOWS_RELATIVE_PATH` with folder path of your project, for other OS leave it blank.
+* If you are using windows in some rare cases an absolute path is required there, you should fill `WINDOWS_RELATIVE_PATH` with folder path of your project.
 * Run main.py `python main.py`
 * Center the game in the python running screen
 * Instantly focus on the browser window and press spacebar to initiate game
