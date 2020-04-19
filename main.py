@@ -7,10 +7,12 @@ import glob
 import pyautogui
 import time
 
-dino = cv2.imread('C:\\Users\\GeeK\\Desktop\\Google-dinosaur-with-OpenCV\\dino.jpg', 0)
+WINDOWS_RELATIVE_PATH  = ''
+
+dino = cv2.imread(WINDOWS_RELATIVE_PATH + 'dino.jpg', 0)
 w_dino, h_dino = dino.shape[::-1]
 
-files = glob.glob ('C:\\Users\\GeeK\\Desktop\\Google-dinosaur-with-OpenCV\\cacti\\*.jpg')   
+files = glob.glob (WINDOWS_RELATIVE_PATH + 'cacti\\*.jpg')   
 cacti = []       
 for file in files:
     temp=cv2.imread(file, 0)  
