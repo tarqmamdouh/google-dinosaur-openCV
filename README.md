@@ -13,9 +13,10 @@ Grab screen function only works on Windows OS.
 * Center the game in the python running screen
 * Instantly focus on the browser window and press spacebar to initiate game
 
-### Desclaimer
+### Disclaimer
 This project is for educational purposes only.
-This project is running under DBD (Don't be a dick) license, this means that you can do whatever you want with the script and Idea, but be a human and share your improvments rather than being a dick.
+
+This project is running under DBD (Don't be a dick) license, this means that you can do whatever you want with the script and Idea, But be human and share your improvments rather than being a dick.
 
 ### Known Issues:
 * when colors inverted the bot will not work
